@@ -1,3 +1,4 @@
+import math
 #Calculadora
 '''
 Conceitos aplicados:
@@ -14,17 +15,17 @@ segundoValor=int(input("Digite o segundo valor: "))
 terceiroValor=int(input("Digite o terceiro valor: "))
 quartoValor=int(input("Digite o quarto valor: "))
 
-soma=primeiroValor+segundoValor
-subtracao=terceiroValor-quartoValor
-divisao=primeiroValor/quartoValor
-produto=segundoValor*terceiroValor
-
+soma = primeiroValor+segundoValor
+subtracao = terceiroValor-quartoValor
+divisao = primeiroValor/quartoValor
+produto = segundoValor*terceiroValor
+potenciacao = math.pow(primeiroValor,segundoValor)
 
 print("A soma do valor eh: ",soma)
 print("A subtracao do valor eh: ", subtracao)
 print("A divisao do valor eh: ", divisao)
 print("O produto da multiplicacao eh: ", produto)
-
+print("A potenciacao eh: ", potenciacao)
 
 
 
